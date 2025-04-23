@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;  
+    margin: 0;  
+    background-color: hsl(47, 88%, 63%)
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    background-color: white;
+    border-radius: 16px;
+    border-color: hsl(0, 0%, 7%);
+    box-shadow: 10px 10px 0px black;
+}
+
+.Learning {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    margin-left: 16px;
+    background-color: hsl(47, 88%, 63%);
+    width: min-content;
+    border-radius: 4px;
+}
+
+.Published {
+   margin-left: 16px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+}
+
+.main_head {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 16px;
+    
+}
+
+.description {
+    margin-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 12px;
+    width: 326px;
+    font-size: 18px;
+}
+
+
+
+img.main_picture {
+    width: 326px;
+    padding: 16px;
+    border-radius: 24px;
+}
+
+.avtor_full {
+    display: flex;
+    flex-direction: row;
+    padding-top: 16px;
+    padding-bottom: 12px;
+    align-items: center;
+}
+
+img.avtor_img {
+    width: 32px;
+    margin-left: 16px;
+}
+
+.avtor_name {
+    margin-left: 12px;
+}
+
